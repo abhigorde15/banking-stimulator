@@ -25,9 +25,8 @@ public class BankingApplication {
 		
 		TransactionService trxService = new TransactionService(accService, trxRepo, alertService);
 		
-		System.out.println("============================================================");
 		System.out.println("         WELCOME TO BANK SIMULATOR APPLICATION        ");
-		System.out.println("============================================================");
+		
 		
 		
 		boolean running = true;
